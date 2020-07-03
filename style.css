@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+#draggable {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.dropzone {
+    width: 200px;
+    height: 20px;
+    background: blueviolet;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.canvas-title{
+    margin-bottom: 0 !important;
+}
+.canvas-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.left-container{
+    height: 100%;
+}
+.container {
+    background-color: #ffffff;
+    margin-top: 1rem;
+    padding: 0 !important;
+}
+.main-container{
+    background-color: white;
+    height: 260px;
+}
+.draggable {
+    background-color: white;
+    cursor: move;
+}
+
+.draggable.dragging {
+    background-color: rgba(88, 154, 255, 0.55);
+    border: 1px dashed #7d7d7d;
+}
+
+.sec{
+    position: relative;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.sec h4 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#tempDiv{
+    color: rgba(128, 128, 128, 0.46);
+}
+
+.add-img{
+    filter: opacity(30%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.add-widget{
+    border: 2px #b3b3b347 solid;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
